@@ -1,0 +1,909 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0;
+}
+.container a {
+  text-decoration: none;
+}
+.container button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.container header {
+  background: #ffffff;
+  box-shadow: 0px 3px 12px rgba(18, 18, 18, 0.06);
+  border-radius: 0px;
+  padding: 15px 50px;
+  width: 100%;
+}
+.container header .row {
+  align-items: center;
+}
+.container header .row .col-xl-1 a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #121212;
+}
+.container header .row .col-xl-1 a:hover {
+  color: #ff5634;
+  transition: all 0.2s linear;
+}
+.container header .row .btn form button {
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #121212;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 12px;
+}
+.container header .row .btn form button:hover {
+  color: #ffffff;
+  background: #ff5634;
+  transition: all 0.4s linear;
+}
+.container header .row .btn form button:focus {
+  background-color: green;
+  transition: all 0.3s linear;
+  border: none;
+}
+.container .page1 {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.container .page1 .col-xl-7 {
+  padding-left: 50px;
+}
+.container .page1 .col-xl-7 p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  color: #ff5634;
+}
+.container .page1 .col-xl-7 h1 {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 72px;
+  color: #121212;
+}
+.container .page1 .col-xl-7 h2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #656565;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.container .page1 .col-xl-7 .btns form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.container .page1 .col-xl-7 .btns form button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 30px;
+  text-align: center;
+  color: #121212;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+}
+.container .page1 .col-xl-7 .btns form button:hover {
+  background: #ff5634;
+  border: 1px solid #ff5634;
+  border-radius: 16px;
+  color: #ffffff;
+  transition: all 0.4s linear;
+}
+.container .page1 .col-xl-7 .btns form button:focus {
+  background-color: green;
+  transition: all 0.3s linear;
+}
+.container .page1 .col-xl-7 .texts {
+  display: flex;
+  gap: 30px;
+  padding-top: 50px;
+  border-top: 1px solid #cacaca;
+}
+.container .page1 .col-xl-7 .texts .text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #656565;
+}
+.container .page1 .col-xl-7 .texts .text .text-item {
+  display: flex;
+  align-items: center;
+}
+.container .page1 .col-xl-7 .texts .text .text-item h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+  color: #121212;
+}
+.container .page1 .col-xl-7 .texts .text .text-item h2 {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 66px;
+  color: #ff5634;
+  margin: 0;
+}
+.container .page1 .col-xl-5 img {
+  margin-left: -15px;
+}
+.container .page1 .col-xl-5 .img {
+  position: absolute;
+}
+.container .page1 .col-xl-5 .img .relative {
+  position: relative;
+  bottom: 800px;
+  right: 150px;
+}
+.container .page2 .content {
+  width: 96%;
+  margin: 0 auto;
+  margin-top: 80px;
+  border-bottom: 2px solid #cacaca;
+  padding-bottom: 80px;
+}
+.container .page2 .content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #656565;
+}
+.container .page2 .content .imgs {
+  display: flex;
+  margin-top: 40px;
+}
+.container .page2 .content .imgs .col-xl-3 {
+  display: flex;
+  justify-content: center;
+}
+.container .page3 {
+  padding-top: 80px;
+  border-bottom: 2px solid #cacaca;
+}
+.container .page3 .text h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  color: #ff5634;
+}
+.container .page3 .text h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  color: #121212;
+}
+.container .page3 .text p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  color: #656565;
+}
+.container .page3 .text h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: end;
+  color: #656565;
+  margin-right: 100px;
+}
+.container .page3 .cards {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+.container .page3 .cards .card {
+  border: none;
+}
+.container .page3 .cards .card h1 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  color: #121212;
+}
+.container .page3 .cards .card h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #656565;
+}
+.container .page3 .btns form {
+  display: flex;
+  margin: 30px 0 70px 0;
+  gap: 15px;
+  justify-content: center;
+}
+.container .page3 .btns form button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 30px;
+  text-align: center;
+  color: #121212;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+}
+.container .page3 .btns form button:hover {
+  background: #ff5634;
+  border: 1px solid #ff5634;
+  border-radius: 16px;
+  color: #ffffff;
+  transition: all 0.4s linear;
+}
+.container .page3 .btns form button:focus {
+  background-color: green;
+  transition: all 0.3s linear;
+}
+.container .page4 {
+  display: flex;
+  margin-top: 100px !important;
+}
+.container .page4 .card {
+  border: none;
+  padding-left: 50px;
+}
+.container .page4 .card h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #121212;
+}
+.container .page4 .card p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  margin: 0;
+  color: #656565;
+}
+.container .page4 .card .mini-cards {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap !important;
+  gap: 50px;
+  justify-content: flex-start;
+  border: none;
+}
+.container .page4 .card .mini-cards .card {
+  padding-left: 0;
+  border: none;
+}
+.container .page4 .card .mini-cards .card img {
+  width: 60px;
+  height: 55px;
+}
+.container .page4 .card .mini-cards .card .extra {
+  text-align: center;
+}
+.container .page4 .card2 img {
+  position: absolute;
+}
+.container .page4 .card2 .relative img {
+  position: relative;
+  bottom: 70px;
+  left: 130px;
+}
+.container .btns form {
+  display: flex;
+  margin: 0 0 70px 0;
+  gap: 15px;
+  justify-content: center;
+}
+.container .btns form button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 30px;
+  text-align: center;
+  color: #121212;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+}
+.container .btns form button:hover {
+  background: #ff5634;
+  border: 1px solid #ff5634;
+  border-radius: 16px;
+  color: #ffffff;
+  transition: all 0.4s linear;
+}
+.container .btns form button:focus {
+  background-color: green;
+  transition: all 0.3s linear;
+}
+.container .black-box {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  margin-right: 0px;
+}
+.container .black-box h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+  color: #ffffff;
+  padding-top: 260px;
+}
+.container .black-box p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-left: 109px;
+  letter-spacing: 0.1px;
+  width: 560px;
+}
+.container .black-box button {
+  background: #ff5634;
+  border: 1px solid #ff5634;
+  border-radius: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 26px 39px 29px 39px;
+  transform: translateX(109px);
+  transition: all 1.1s linear;
+}
+.container .black-box button:hover {
+  background: #ffffff;
+  border: 1px solid #ff5634;
+  border-radius: 16px;
+  color: black;
+  font-weight: 400;
+  transition: all 0.4s linear;
+}
+.container .black-box button:focus {
+  background-color: green;
+  transition: all 0.3s linear;
+  color: #cacaca;
+}
+.container .black-box img {
+  margin-bottom: 12px;
+}
+.container .black-box .black-box-images {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  transform: translateX(635px);
+  margin-top: -543px;
+}
+.container .black-box .black-box-imagess {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  transform: translateX(995px);
+  margin-top: -847px;
+}
+.container .feature-box {
+  justify-content: center;
+  text-align: center;
+  margin-top: 120px;
+}
+.container .feature-box img {
+  display: flex;
+  margin-left: 105px;
+}
+.container .feature-box a {
+  color: #ff5634;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+}
+.container .feature-box h1 {
+  font-size: 48px;
+  margin-top: 10px;
+}
+.container .feature-box p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  color: #656565;
+  letter-spacing: 2px;
+}
+.container .feature-box button {
+  background: #ff5634;
+  border: 1px solid #ff5634;
+  border-radius: 16px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 26px 29px 20px 30px;
+  box-shadow: 2px 5px 5px gray;
+  transition: all 0.5s linear;
+}
+.container .feature-box button:hover {
+  background-color: #ededed;
+  color: #121212;
+}
+.container .feature-box button:focus {
+  background-color: green;
+  color: #cacaca;
+}
+.container .feature-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container .feature-image h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  color: #121212;
+  width: 228px;
+  margin-left: 54px;
+}
+.container .feature-image p {
+  display: flex;
+  width: 340px;
+}
+.container .page7 {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 100px;
+  padding-bottom: 100px;
+}
+.container .page7 .extra {
+  padding-left: 0 !important;
+}
+.container .page7 .card1 {
+  padding: 50px 50px 0 50px;
+  background: #ff5634;
+  border-radius: 32px;
+  margin-top: 100px;
+  position: relative;
+}
+.container .page7 .card1 .card1__cards .img2 {
+  top: 200px;
+  left: 180px;
+  position: absolute;
+}
+.container .page7 .card1 .card1__cards .img3 {
+  padding-left: 150px;
+}
+.container .page7 .card1 .card1__cards .img4 {
+  left: 0;
+  left: 50px;
+}
+.container .page7 .card2 {
+  margin-top: 150px;
+  padding: 50px;
+}
+.container .page7 .card2 h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #121212;
+}
+.container .page7 .card2 p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #656565;
+}
+.container .page7 .card2 .mini-cards {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.container .page7 .card2 .mini-cards .text h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #121212;
+}
+.container .page7 .card2 .mini-cards .text h5 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  color: #656565;
+}
+.container .page8 {
+  background-color: #fafafa;
+  padding: 60px 50px;
+}
+.container .page8 .box1 {
+  display: flex;
+  align-items: flex-end;
+}
+.container .page8 .box1 .card {
+  background-color: transparent;
+  border: none;
+}
+.container .page8 .box1 .card h1 {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 54px;
+  color: #121212;
+}
+.container .page8 .box1 .card p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #656565;
+}
+.container .page8 .box1 .card .btns form {
+  margin-bottom: 0 !important;
+}
+.container .page8 .box2 {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .page8 .box2 .cards {
+  background: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.container .page8 .box2 .cards .cards__card {
+  width: 30%;
+  padding: 30px 20px;
+  box-shadow: 0px 2px 12px rgba(16, 16, 16, 0.08);
+  border-radius: 24px;
+  padding: 20px;
+  background-color: #fff;
+}
+.container .page8 .box2 .cards .cards__card p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 10px;
+  color: #656565;
+}
+.container .page8 .box2 .cards .cards__card .cards__card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .page8 .box2 .cards .cards__card .cards__card-item .cards__card-item-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .page8 .box2 .cards .cards__card .cards__card-item .cards__card-item-child p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #121212;
+  margin-bottom: 3px;
+}
+.container .page8 .box2 .cards .cards__card .cards__card-item .cards__card-item-child h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ff5634;
+}
+.container .page9 {
+  background: black;
+  display: flex;
+}
+.container .page9 .page9__card1 h1 {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 66px;
+  color: #ffffff;
+}
+.container .page9 .page9__card1 p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.container .page9 .page9__card1 form {
+  justify-content: flex-start;
+}
+.container .page10 {
+  padding: 60px 50px 20px 50px;
+}
+.container .page10 .box1 {
+  padding-bottom: 50px;
+  border-bottom: 2px solid #cacaca;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .page10 .box1 .box-item1 p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #656565;
+  margin-top: 10px;
+}
+.container .page10 .box1 .box-item2 form {
+  display: flex;
+  margin: 0 0 0 0;
+  gap: 15px;
+  justify-content: center;
+}
+.container .page10 .box1 .box-item2 form button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 30px;
+  text-align: center;
+  color: #121212;
+  background: #ffffff;
+  border: 1px solid #ff5634;
+  box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+}
+.container .page10 .box1 .box-item2 form button:hover {
+  background: #ff5634;
+  border: 1px solid #ff5634;
+  border-radius: 16px;
+  color: #ffffff;
+  transition: all 0.4s linear;
+}
+.container .page10 .box1 .box-item2 form button:focus {
+  background-color: green;
+  transition: all 0.3s linear;
+}
+.container .page10 footer {
+  padding-top: 50px;
+  border-bottom: none;
+  display: flex;
+}
+.container .page10 footer .box1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: none !important;
+  padding-right: 150px;
+}
+.container .page10 footer .box1 .card {
+  border: none;
+}
+.container .page10 footer .box1 .card h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #121212;
+  margin-bottom: 15px;
+}
+.container .page10 footer .box1 .card a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #656565;
+  margin-bottom: 5px;
+}
+.container .page10 footer .box1 .card a:hover {
+  color: #312a2a;
+  transition: all 0.2s linear;
+}
+.container .page10 footer .box2 h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.container .page10 footer .box2 .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.container .page10 footer .box2 .cards .card {
+  border: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.container .page10 footer .box2 .cards .card p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #121212;
+}
+.container .page10 footer .box2 .cards .card img {
+  border-radius: 24px;
+  width: 60px;
+  height: 60px;
+}
+.container .page10 .last-card {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.container .page10 .last-card p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #656565;
+}
+.container .page10 .last-card h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #ff5634;
+}
+
+@media (max-width: 447px) {
+  h1 {
+    display: none;
+  }
+  p {
+    display: none;
+  }
+  h2 {
+    display: none;
+  }
+  a {
+    display: none;
+  }
+  .img2 {
+    width: 50%;
+    display: none;
+  }
+  .mini-cards {
+    margin-top: -10px;
+    margin-left: -90px;
+  }
+  .mini-cards .text h4 {
+    width: 300px;
+  }
+  .mini-cards img {
+    margin-top: -10px;
+  }
+  .black-box-imagess {
+    display: none;
+  }
+  .img100 {
+    width: 50%;
+  }
+  .cards__card {
+    margin-left: 51px;
+  }
+  .cards {
+    margin-left: -50px;
+  }
+  .extra {
+    display: none;
+  }
+  .black-box h1 {
+    display: flex;
+  }
+  .box1 img {
+    display: none;
+  }
+  .box1 button {
+    width: 150px;
+  }
+  .img3 {
+    display: none;
+  }
+  .img1 {
+    width: 300px;
+    height: 500px;
+  }
+  .page1 img {
+    display: none;
+  }
+  .content {
+    display: none;
+  }
+  .row h1 {
+    display: flex;
+  }
+  .row button {
+    display: flex;
+    margin-left: 222px;
+    transform: translateY(-50px);
+  }
+  .relative {
+    display: none;
+  }
+  .human {
+    display: none;
+  }
+  .card img {
+    display: none;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  footer h1 {
+    display: flex;
+  }
+  footer p {
+    display: flex;
+  }
+  footer a {
+    display: flex;
+    margin-top: 2px;
+  }
+  .page3 h1 {
+    display: flex;
+  }
+  .page3 p {
+    display: flex;
+    width: 200px;
+    margin-left: -50px;
+  }
+  .page3 a {
+    margin-left: -30px;
+  }
+  .container {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  img {
+    width: 90%;
+  }
+  .human {
+    display: none;
+  }
+  .relative {
+    display: none;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .container {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
